@@ -25,6 +25,11 @@ class Example extends Component {
 }
 ```
 
+## Important Notice
+
+This library is not ready yet.
+
+
 ## License
 
 MIT © [kkoukakis](https://github.com/kkoukakis)
