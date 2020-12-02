@@ -1,6 +1,6 @@
 {
   "name": "materialize-ts-react",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "A TypeScript React Component Library based on MaterializeCSS",
   "author": "kkoukakis",
   "license": "MIT",
@@ -24,7 +24,8 @@
     "deploy": "gh-pages -d example/build"
   },
   "peerDependencies": {
-    "react": "^16.0.0"
+    "react": "^16.0.0",
+    "materialize-css": "^1.0.0"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -55,9 +56,13 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "^3.4.1",
-    "typescript": "^3.7.5"
+    "typescript": "^3.7.5",
+    "materialize-css": "^1.0.0"
   },
   "files": [
     "dist"
-  ]
+  ],
+  "dependencies": {
+    "materialize-css": "^1.0.0"
+  }
 }

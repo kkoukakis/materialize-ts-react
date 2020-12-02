@@ -1,10 +1,9 @@
-import * as React from 'react'
-import styles from './styles.module.css'
 
-interface Props {
-  text: string
-}
+import 'materialize-css/dist/css/materialize.min.css';
+ 
+export {default  as  Button} from './Button';
+export {default  as  Example} from './Example';
 
-export const ExampleComponent = ({ text }: Props) => {
-  return <div className={styles.test}>Example Component: {text}</div>
-}
+ 
+
+ 

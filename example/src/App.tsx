@@ -1,10 +1,14 @@
 import React from 'react'
 
-import { ExampleComponent } from 'materialize-ts-react'
-import 'materialize-ts-react/dist/index.css'
+import {Button, Example} from 'materialize-ts-react'
+
+ 
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return <>
+       <Button message="hey"/>
+       <Example example_prop="ok"/>
+  </>
 }
 
 export default App
