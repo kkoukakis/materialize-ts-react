@@ -1,7 +1,7 @@
 {
   "name": "materialize-ts-react",
   "version": "0.0.1",
-  "description": "A TypeScript React Component Library based on MaterializeCSS",
+  "description": "A TypeScript React Component Library based on MaterializeCSS (Currently Under Development)",
   "author": "kkoukakis",
   "license": "MIT",
   "repository": "kkoukakis/materialize-ts-react",
