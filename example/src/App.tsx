@@ -1,13 +1,14 @@
 import React from 'react'
 
-import {Button, Example} from 'materialize-ts-react'
+import {Button} from 'materialize-ts-react'
 
+import './index.css'
  
 
 const App = () => {
   return <>
-       <Button message="hey"/>
-       <Example example_prop="ok"/>
+       
+       <Button id="mybutton" text="hey" onClick={()=>{alert('clicked something')}}/>
   </>
 }
 
