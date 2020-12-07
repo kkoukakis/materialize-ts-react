@@ -10,7 +10,7 @@
 npm install --save materialize-ts-react
 ```
 
-## Usage
+## Usage COMING SOON
 
 ```tsx
 import React, { Component } from 'react'
@@ -24,6 +24,9 @@ class Example extends Component {
   }
 }
 ```
+
+## Developed with VS Code Extension
+- [ts-react-component-generator][https://marketplace.visualstudio.com/items?itemName=kkoukakis.ts-react-component-generator]
 
 ## Important Notice
 

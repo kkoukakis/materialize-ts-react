@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react';
-import 'materialize-css/dist/css/materialize.css';
+
  
 
 export interface IButtondProps {
@@ -7,6 +7,7 @@ export interface IButtondProps {
     id: string,
     size?: string,
     onClick?: Function,
+    style ?: any
 }
 
 
@@ -16,6 +17,7 @@ export interface IButtondState {
     id: string,
     size: string,
     onClick: Function,
+    style : any
 }
 
  
@@ -27,6 +29,7 @@ class Button extends PureComponent<IButtondProps, IButtondState> {
         id: "",
         size : "",
         onClick: this.props.onClick? this.props.onClick : ()=>{},
+        style : this.props.style? this.props.style : {},
     }
     
     // Before the component mounts 
@@ -41,7 +44,7 @@ class Button extends PureComponent<IButtondProps, IButtondState> {
 
     render() {
         return (
-            <a id={this.state.id} className={"waves-effect waves-light btn"+this.state.size} type="button" onClick={()=> this.state.onClick()}>{this.state.text}</a>
+            <a id={this.state.id} style={ this.state.style} className={"waves-effect waves-light btn"+this.state.size} type="button" onClick={()=> this.state.onClick()}>{this.state.text}</a>
         );
     }
 
