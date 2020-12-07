@@ -4,7 +4,6 @@ import {Button, Card, Row, Container, Icon, Nav, NavLinks, NavLink, NavLogo} fro
 
 import './index.css'
  
-
 const App = () => {
   return <>
        <Container>
@@ -42,8 +41,6 @@ const App = () => {
        </Nav>
 
        </Container>
-       
-
   </>
 }
 
